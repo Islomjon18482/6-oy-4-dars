@@ -1,0 +1,30 @@
+.label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.label p{
+    color: var(--Dark, #2A2941);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+.label p span{
+    color: var(--Dark, #FF2424);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+.label input{
+    border: 1px solid #E3E3E3;
+    border-radius: 16px;
+    padding: 18px;
+    color: var(--Gray, #6E6D77);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}

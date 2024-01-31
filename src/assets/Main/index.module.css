@@ -1,0 +1,150 @@
+.form {
+    width: 778px;
+    display: flex;
+    padding: 32px 38px;
+    flex-direction: column;
+    gap: 42px;
+    margin: 60px auto;
+    background: #FFF;
+    border-radius: 24px;
+}
+
+.heading h2 {
+    color: var(--Dark, #2A2941);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.heading p {
+    margin-top: 16px;
+    color: var(--30-black, #B3B3B3);
+    font-style: normal;
+    font-weight: 450;
+    line-height: 130%;
+    font-size: 16px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.img p {
+    color: var(--Mai, #5361E4);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+form {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.links ul {
+    display: flex;
+    gap: 8px;
+}
+
+.links ul li {
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #E3E3E3;
+}
+
+.location {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.desc textarea {
+    resize: none;
+    display: flex;
+    width: 702px;
+    height: 148px;
+    padding: 18px;
+    gap: 10px;
+    align-items: flex-start;
+    border-radius: 16px;
+    border: 1px solid #E3E3E3;
+}
+
+.desc p {
+    color: var(--Dark, #2A2941);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.buttons {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel {
+    border: none;
+    color: var(--Gray, #6E6D77);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    width: 179.841px;
+    height: 60px;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #F8F8F8;
+}
+
+.next {
+    border: none;
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-flex;
+    height: 60px;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--Mai, #5361E4);
+}
