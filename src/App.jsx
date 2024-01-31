@@ -6,8 +6,10 @@ function App() {
 
   return (
     <>
+    <div>
       <Header></Header>
       <Form></Form>
+    </div>
     </>
   )
 }
